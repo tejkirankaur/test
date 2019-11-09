@@ -627,6 +627,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b43531b28c2f103489859cc926602f77, type: 2}
+    - target: {fileID: 2358854, guid: ce9f6338cd38cc242ae7ba54eb5ca686, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b43531b28c2f103489859cc926602f77, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce9f6338cd38cc242ae7ba54eb5ca686, type: 3}
 --- !u!1 &563683859
@@ -1454,6 +1458,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 442f7a7a685e46e4e9011e35f88111c2, type: 2}
+    - target: {fileID: 6466756, guid: 3d66cc8d7758e37499c32d6157d2e4d9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466756, guid: 3d66cc8d7758e37499c32d6157d2e4d9, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d66cc8d7758e37499c32d6157d2e4d9, type: 3}
 --- !u!1001 &1438241991
@@ -1590,6 +1602,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8497107830450558672, guid: cb63b55fcb007fa4c9fb39572a9eef5d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 888221472404496361, guid: cb63b55fcb007fa4c9fb39572a9eef5d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1598,7 +1615,7 @@ PrefabInstance:
     - target: {fileID: 888221472404496361, guid: cb63b55fcb007fa4c9fb39572a9eef5d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1883867
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 888221472404496361, guid: cb63b55fcb007fa4c9fb39572a9eef5d,
         type: 3}
@@ -1655,6 +1672,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8851701381813080695, guid: cb63b55fcb007fa4c9fb39572a9eef5d,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb63b55fcb007fa4c9fb39572a9eef5d, type: 3}
 --- !u!1 &1460356434 stripped
@@ -1687,7 +1709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dcfd365256693b47939887bce96ae3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   rigid: {fileID: 1460356436}
 --- !u!114 &1460356438
 MonoBehaviour:
@@ -2169,7 +2191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428144, guid: 43d083e8215b4544594282d6c144d7ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 428144, guid: 43d083e8215b4544594282d6c144d7ba, type: 3}
       propertyPath: m_LocalPosition.z
